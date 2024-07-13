@@ -10,7 +10,8 @@
 <body>
     <!-- header start here -->
     <header id="header-section">
-        <nav class="nav">
+        <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+        <nav class="nav" id="menu">
             <ul class="nav-upper flex-soace-around">
                 <li class="nav-upper__list"><a href="index.html" class="nav-upper__link">Home</a></li>
                 <li class="nav-upper__list"><a href="register.html" class="nav-upper__link">Register</a></li>
@@ -23,11 +24,28 @@
                 <li class="nav-lower__list"><a href="index.html" class="nav-lower__link">Hosain Express</a></li>
                 <li class="nav-lower__list"> <a href="cart.html" class="nav-lower__link"> <span>
                     <i class="fa-solid fa-cart-shopping"></i>
-                    cart 2 Producrt - $124
+                    cart 2 Product - $124
                 </span></a></li>
             </ul>
         </nav>
     </header>
     <!-- header end here -->
+
+    <main>
+        <h1>Welcome</h1>
+    </main>
+
+    <footer class="footer flex-soace-around">
+        <div >
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="email" name="subscribe" id="subscribe" placeholder="Enter your Email" class="footer__input">
+            <button class="btn footer__btn">Subscribe</button>
+        </div>
+        <div>
+            <p>Copyright &copy; 2022 Hosain  Express. All Rights Reserved by Abdul Halim Hosain</p>
+        </div>
+    </footer>
+    
+    <script src="index.js"></script>
 </body>
 </html>

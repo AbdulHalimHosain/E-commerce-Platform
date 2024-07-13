@@ -31,6 +31,9 @@ img{
 
 
 /* header start from here  */
+#menu-icon{
+    display: none;
+}
 nav{
     font-family: 'Lobster', cursive;
     font-size: 1.2rem;
@@ -51,6 +54,7 @@ nav{
 .nav-upper__list:hover{
     color:black;
     text-decoration: overline;
+    transform: scale(1.1)
 }
 .nav-upper__link{
     color: white;
@@ -61,6 +65,7 @@ nav{
 .nav-upper__link:hover{
     color:#D3C5E5;
     text-decoration: overline;
+    transform: scale(1.1)
 }
 .nav-upper__profile{
     width: 4rem;
@@ -85,3 +90,29 @@ nav{
 
 
 /* header end here */
+
+
+
+
+/* responsiveness start from here */
+
+
+@media screen and (max-width: 992px) {
+    #menu-icon{
+        display: block;
+        text-align: center;
+        margin: 1rem 0;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    .nav{
+        display: none;
+    }
+    .flex-soace-around{
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+}
+
+/* responsiveness end from here */
